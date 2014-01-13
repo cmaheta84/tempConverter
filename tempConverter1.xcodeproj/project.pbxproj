@@ -21,6 +21,7 @@
 		281462601883C0A40062E9D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281462421883C0A40062E9D4 /* UIKit.framework */; };
 		281462681883C0A40062E9D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 281462661883C0A40062E9D4 /* InfoPlist.strings */; };
 		2814626A1883C0A40062E9D4 /* tempConverter1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281462691883C0A40062E9D4 /* tempConverter1Tests.m */; };
+		281462751883C0D70062E9D4 /* TempConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281462741883C0D70062E9D4 /* TempConverterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		281462651883C0A40062E9D4 /* tempConverter1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tempConverter1Tests-Info.plist"; sourceTree = "<group>"; };
 		281462671883C0A40062E9D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		281462691883C0A40062E9D4 /* tempConverter1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tempConverter1Tests.m; sourceTree = "<group>"; };
+		281462731883C0D70062E9D4 /* TempConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempConverterViewController.h; sourceTree = "<group>"; };
+		281462741883C0D70062E9D4 /* TempConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempConverterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				281462541883C0A40062E9D4 /* ViewController.m */,
 				281462561883C0A40062E9D4 /* Images.xcassets */,
 				281462451883C0A40062E9D4 /* Supporting Files */,
+				281462731883C0D70062E9D4 /* TempConverterViewController.h */,
+				281462741883C0D70062E9D4 /* TempConverterViewController.m */,
 			);
 			path = tempConverter1;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				281462551883C0A40062E9D4 /* ViewController.m in Sources */,
+				281462751883C0D70062E9D4 /* TempConverterViewController.m in Sources */,
 				2814624F1883C0A40062E9D4 /* AppDelegate.m in Sources */,
 				2814624B1883C0A40062E9D4 /* main.m in Sources */,
 			);
